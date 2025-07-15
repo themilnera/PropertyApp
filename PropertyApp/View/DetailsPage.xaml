@@ -41,7 +41,7 @@
                 <Border BackgroundColor="White" StrokeShape="RoundRectangle 35,35,0,0" StrokeThickness="0" Opacity="0.9" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
                 <Grid Padding="30">
                     <VerticalStackLayout>
-                        <VerticalStackLayout>
+                        <VerticalStackLayout x:Name="addressView">
                             <Label Text="{Binding SelectedProperty.Address}" TextColor="Black" FontSize="20" Opacity="0.5"/>
                             <Label Text="{Binding SelectedProperty.Price, StringFormat='${0:###,###}'}" TextColor="Black" FontSize="28" FontAttributes="Bold"/>
                         </VerticalStackLayout>
