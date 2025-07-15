@@ -6,6 +6,6 @@
 -Modular system for connecting images and property data
 -Populated with dummy data for demonstration purposes
 
-## Incomplete
+## Incomplete:
 -Full implementation of this app would require connection to a database or external API
 -This is mostly a frontend project
