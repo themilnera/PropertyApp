@@ -11,7 +11,7 @@ public partial class DetailsPage : ContentPage
 
 		viewModel.PropertyImages = selectedProperty.Images.Take(2).ToList();
 		viewModel.MoreItems = selectedProperty.Images.Count - 2;
-
+		 
 		this.BindingContext = viewModel;
 	}
 }

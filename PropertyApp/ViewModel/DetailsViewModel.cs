@@ -12,7 +12,7 @@ namespace PropertyApp.ViewModel
     {
         public Property SelectedProperty { get; set;  }
         public List<string> PropertyImages { get; set; }
-        public int MoreItems { get; set; }
+        public int MoreItems { get; set; }  
         public ICommand CloseCommand => new Command(() => Application.Current.MainPage.Navigation.PopAsync());
     }
 }

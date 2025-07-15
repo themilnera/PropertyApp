@@ -7,7 +7,7 @@ namespace PropertyApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LandingPage());
+            MainPage = new NavigationPage(new LandingPage()); 
         }
     }
 }

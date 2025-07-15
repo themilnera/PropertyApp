@@ -22,8 +22,8 @@
                     </VerticalStackLayout>
                     <ImageButton BackgroundColor="Transparent" Source="https://w7.pngwing.com/pngs/211/405/png-transparent-computer-icons-close-button-trademark-logo-sign-thumbnail.png" WidthRequest="40" HorizontalOptions="End" VerticalOptions="End"
                                  Command="{Binding CloseCommand}"/>
-                </Grid>
+                </Grid> 
             </Grid>
         </Grid>
-    </Grid>
+    </Grid> 
 </ContentPage>

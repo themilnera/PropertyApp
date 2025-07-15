@@ -11,7 +11,7 @@ namespace PropertyApp.Model
         public static List<Property> AllProperties => new List<Property>
         {
             new Property
-            {
+            { 
                 Address = "Manhattan, New York",
                 Price = 350550,
                 DefaultImage = "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg",
