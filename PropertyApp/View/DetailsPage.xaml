@@ -27,6 +27,14 @@
                         </CollectionView.Footer>
                     </CollectionView>
                 </Grid>
+                <Grid x:Name="detailsBtn" HorizontalOptions="End" Margin="0,60,20,0">
+                    <Rectangle Fill="White" StrokeThickness="0" HeightRequest="115" WidthRequest="115"
+                               RadiusX="60" RadiusY="60" Opacity="0.9"/>
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="https://www.citypng.com/public/uploads/preview/hd-black-double-arrow-to-up-icon-transparent-png-701751695032810c8985xdvj7.png" WidthRequest="15"/>
+                        <Label Text="Details" FontSize="20" TextColor="Black" Opacity="0.5"/>
+                    </VerticalStackLayout>
+                </Grid>
             </VerticalStackLayout>
 
             <Grid x:Name="popView" Grid.Row="1">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ct="clr-namespace:PropertyApp.Control"
              x:Class="PropertyApp.View.LandingPage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Resources>
@@ -89,9 +90,9 @@
                 <DataTemplate>
                     <Grid HeightRequest="210" WidthRequest="160">
                         <VerticalStackLayout Spacing="10">
-                            <Border HeightRequest="160" StrokeThickness="0">
+                            <ct:CustomBorder HeightRequest="160" StrokeThickness="0">
                                 <Image Source="{Binding DefaultImage}" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-                            </Border>
+                            </ct:CustomBorder>
                             <VerticalStackLayout>
                                 <Label Text="{Binding Address}" TextColor="Black" FontSize="12" Opacity="0.5"/>
                                 <Label Text="{Binding Price, StringFormat='${0:###,###}'}" TextColor="Black" FontSize="16" FontAttributes="Bold"/>
